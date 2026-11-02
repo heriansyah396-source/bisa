@@ -1,0 +1,24 @@
+{
+  "name": "bisa-app",
+  "version": "1.0.0",
+  "description": "BISA (Butir Instrumen Soal Analitik) - Platform Digital Berbasis Web untuk Otomatisasi Analisis Butir Soal dan Peningkatan Kualitas Evaluasi Pembelajaran Guru SD dan SMP",
+  "main": "server.js",
+  "scripts": {
+    "start": "agy-node server.js",
+    "test": "agy-node tests/ctt-engine.test.js",
+    "deploy": "npx wrangler pages deploy . --project-name=bisa-app",
+    "preview": "npx wrangler pages dev ."
+  },
+  "keywords": [
+    "edtech",
+    "item-analysis",
+    "analisis-butir-soal",
+    "classical-test-theory",
+    "kr-20",
+    "cronbach-alpha",
+    "kemdikbud",
+    "guru-sd-smp"
+  ],
+  "author": "Heriansyah, S.Si., S.Pd., M.Pd.",
+  "license": "MIT"
+}
